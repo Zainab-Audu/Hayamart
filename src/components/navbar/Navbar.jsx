@@ -15,7 +15,7 @@ const Navbar = () => {
   console.log(cartItemCount);
   return (
     <React.Fragment>
-      <div className="bg-[#282828] text-[#FFFFFF]">
+      <div className="bg-gradient-to-r from-red-950 to-yellow-900 text-[#FFFFFF]">
         <nav className="flex flex-row-reverse lg:flex-row justify-between font-semibold items-center px-4 py-5 max-w-6xl mx-auto">
           <div className="lg:hidden cursor-pointer">
             <HiOutlineMenu onClick={() => setMobileNav(!mobileNav)} size={30} />
@@ -44,7 +44,7 @@ const Navbar = () => {
                 isActive("/order") ? "text-red-500" : ""
               }`}
             >
-              Order
+              Order Here
             </Link>
             <Link
               to="/contact"
@@ -81,7 +81,7 @@ const Navbar = () => {
             </div>
             <Link
               to="/booking"
-              className="bg-[#E53633] px-6 py-2 border-none  font-bold hover:opacity-80 duration-300"
+              className="bg-[#751614] px-6 py-2 border-none  font-bold hover:opacity-80 duration-300"
             >
               Book Now
             </Link>
