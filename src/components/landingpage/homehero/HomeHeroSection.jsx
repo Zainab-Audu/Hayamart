@@ -11,7 +11,7 @@ const HomeHeroSection = () => {
             <h1 className="text-[2.2rem] lg:text-[3.2rem] font-extrabold">
               <span className="text-[#E53633]">Delivering</span> Quality,
               Elegance
-              <span className="text-[#E53633]"> Meals </span> For Your Events
+              <span className="text-[#E53633]"> Luxury</span> That fits your style
             </h1>
             <p className="text-[#575656] text-[1.2rem] font-semibold">
               Hayamart provides exquisite deals for your.

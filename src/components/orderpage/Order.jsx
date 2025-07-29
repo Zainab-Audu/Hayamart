@@ -27,15 +27,15 @@ const Order = () => {
           <div className=" flex flex-col justify-start px-4 gap-2 lg:gap-16 py-16  lg:justify-between  lg:flex-row">
             <div>
               <h1 className="text-[#E53633] text-[1.5rem] lg:text-[2rem] font-bold">
-                Our Menu
+                Items Available
               </h1>
               <p className="font-semibold">
-                Quality and tasty meals at your finger tips{" "}
+                Elegance and class in view{" "}
               </p>
             </div>
             <input
               type="search"
-              placeholder="search food"
+              placeholder="search"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="border p-2 py-6 h-[48px] lg:py-0 rounded-sm lg:rounded-md bg-[#FFF] border-[#4F4F4F] focus:border-[#E53633]  placeholder:text-[#333333] placeholder:text-[1rem]  placeholder:opacity-60 lg:w-[30%] outline-none"

@@ -30,11 +30,11 @@ const ContactHero = () => {
               </p>
               <h1 className="text-[1.5rem] lg:text-[2rem] ">Contact Us</h1>
             </div>
-            <img
+            {/* <img
               src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708054197423/12b62582-b440-484f-a895-c50001480fc9.png"
               alt="chef"
               loading="lazy"
-            />
+            /> */}
           </section>
           {isSubmitted ? (
             <div className="min-h-[30vh] flex flex-col justify-center items-center bg-white rounded-md p-8 max-w-6xl mx-auto text-center">

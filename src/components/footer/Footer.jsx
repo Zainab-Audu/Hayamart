@@ -8,15 +8,15 @@ const Footer = () => {
   const today = new Date();
   return (
     <React.Fragment>
-      <div className="bg-[#333333]">
+      <div className="bg-gradient-to-r from-red-950 to-yellow-900">
         <footer className=" text-[#FFF] py-10 lg:py-24 px-4 max-w-6xl mx-auto">
           <section className="flex flex-wrap gap-10 lg:flex-row lg:justify-between px-4">
             <section className="flex flex-col items-center">
-              <img
+              {/* <img
                 src="https://cdn.hashnode.com/res/hashnode/image/upload/v1741937751683/8e9edcdb-0460-4b19-98c0-0b8b8a73d1e7.png"
                 alt="logo"
                 className="w-20 h-20 object-cover"
-              />
+              /> */}
               <div className="flex gap-4 items-center">
                 <a href="">
                   <SlSocialFacebook
@@ -106,8 +106,8 @@ const Footer = () => {
           </section>
         </footer>
       </div>
-      <section className="text-center p-6 bg-[#E53633] text-[#FFF] text-[0.95rem]">
-        <p>I-Grills Copyright {today.getFullYear()}, All Rights Reserved.</p>
+      <section className="text-center p-6 bg-gradient-to-r from-yellow-800 to-red-900 text-[#FFF] text-[0.95rem]">
+        <p>Hayamart Copyright {today.getFullYear()}, All Rights Reserved.</p>
       </section>
     </React.Fragment>
   );

@@ -10,7 +10,7 @@ const HomeCategory = () => {
               see
             </p>
             <h1 className="text-[1.5rem] lg:text-[2rem] ">
-              Our Categorized Menu
+              Our Categorized items
             </h1>
           </div>
           <section className="flex flex-wrap justify-center gap-10 w-[100%] font-semibold">
@@ -20,7 +20,7 @@ const HomeCategory = () => {
                 alt="main dish"
                 className="w-full object-cover rounded-t-lg"
               />
-              <h3 className="text-[#333333] py-2 text-[1.2rem]">Main Dish</h3>
+              <h3 className="text-[#333333] py-2 text-[1.2rem]">Abayas</h3>
             </div>
             <div className="w-[40%] lg:w-[20%] flex flex-col gap-2 items-center  rounded-md bg-[#FFF]">
               <img
@@ -28,7 +28,7 @@ const HomeCategory = () => {
                 alt="starter"
                 className="w-full object-cover rounded-t-lg"
               />
-              <h3 className="text-[#333333] py-2 text-[1.2rem]">Starter</h3>
+              <h3 className="text-[#333333] py-2 text-[1.2rem]">Boubou</h3>
             </div>
             <div className="w-[40%] lg:w-[20%] flex flex-col gap-2 items-center  rounded-md bg-[#FFF]">
               <img
@@ -36,7 +36,7 @@ const HomeCategory = () => {
                 alt="Protein"
                 className="w-full object-cover rounded-t-lg"
               />
-              <h3 className="text-[#333333] py-2 text-[1.2rem]">Protein</h3>
+              <h3 className="text-[#333333] py-2 text-[1.2rem]">Scarf</h3>
             </div>
             <div className="w-[40%] lg:w-[20%] flex flex-col gap-2 items-center  rounded-md bg-[#FFF]">
               <img
@@ -44,7 +44,7 @@ const HomeCategory = () => {
                 alt="Drinks"
                 className="w-full object-cover rounded-t-lg"
               />
-              <h3 className="text-[#333333] py-2 text-[1.2rem]">Drinks</h3>
+              <h3 className="text-[#333333] py-2 text-[1.2rem]">Caps</h3>
             </div>
           </section>
         </section>

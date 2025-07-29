@@ -13,7 +13,7 @@ const HomeBook = () => {
                 Booking
               </p>
               <h1 className="font-bold text-center text-[1.5rem] lg:text-[2rem]">
-                Book Our Event Planning Services
+                Book Our wedding gown 
               </h1>
             </div>
             <div className="flex justify-center gap-16 font-semibold ">

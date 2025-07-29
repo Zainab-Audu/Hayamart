@@ -2,7 +2,7 @@ import React from "react";
 import AboutHero from "./abouthero/AboutHero";
 import AboutMission from "./mission/AboutMission";
 import AboutNumbers from "./aboutnumbers/AboutNumbers";
-import AboutChef from "./aboutchef/AboutChef";
+// import AboutChef from "./aboutchef/AboutChef";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
       <AboutHero />
       <AboutMission />
       <AboutNumbers />
-      <AboutChef />
+      {/* <AboutChef /> */}
     </React.Fragment>
   );
 };

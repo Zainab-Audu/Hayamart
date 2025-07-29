@@ -13,22 +13,22 @@ const OrderButton = ({ choice }) => {
         </div>
         <section className="flex flex-wrap justify-start gap-4  lg:gap-12 lg:text-[1.2rem]">
           <button
-            onClick={() => choice("main")}
+            onClick={() => choice("Abaya")}
             className=" hover:border-b-2 hover:border-[#E53633] border-b-2 border-white hover:text-[#E53633] w-fit hover:scale-105 duration-300"
           >
-            Main Dishes
+            Abayas
           </button>
           <button
-            onClick={() => choice("grill")}
+            onClick={() => choice("Boubou")}
             className=" hover:border-b-2 hover:border-[#E53633] border-b-2 border-white hover:text-[#E53633] w-fit hover:scale-105 duration-300"
           >
-            Grills
+            Boubou
           </button>
           <button
-            onClick={() => choice("canapes")}
+            onClick={() => choice("Others")}
             className=" hover:border-b-2 hover:border-[#E53633] border-b-2 border-white hover:text-[#E53633] w-fit hover:scale-105 duration-300"
           >
-            Canapes
+            Others
           </button>
         </section>
       </section>

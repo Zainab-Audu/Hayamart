@@ -16,7 +16,7 @@ const ContactInfo = () => {
               Get in Touch
             </h1>
             <p className="text-[1.2rem] text-center">
-              Have a question or need assistance? Contact us today.
+               Contact us today.
             </p>
           </div>
           <section className="flex flex-wrap justify-center items-center gap-20 font-semibold text-[1.3rem]">
@@ -25,7 +25,7 @@ const ContactInfo = () => {
                 <MdOutlineEmail size={60} className="text-[#E53633]" />
                 <p className="text-[#E53633]">Email</p>
               </div>
-              <p className="opacity-80">Hello@igrils.com</p>
+              <p className="opacity-80">Haya@gmail.com</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="flex flex-col items-center">
@@ -39,7 +39,7 @@ const ContactInfo = () => {
                 <MdOutlineLocationOn size={60} className="text-[#E53633]" />
                 <p className="text-[#E53633]">Office</p>
               </div>
-              <p className="opacity-80">123, abc street,Abuja.</p>
+              <p className="opacity-80">73 remlink road lag, Nigeria.</p>
             </div>
           </section>
         </section>

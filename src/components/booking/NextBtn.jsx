@@ -9,14 +9,14 @@ const NextBtn = ({ choice }) => {
           onClick={() => choice("grill")}
           className="group hover:flex gap-1"
         >
-          1 <span className="text-red-400 hidden group-hover:flex">Grill</span>
+          1 <span className="text-red-400 hidden group-hover:flex">Abayas</span>
         </button>
         <button
           onClick={() => choice("canapes")}
           className="group hover:flex gap-1"
         >
           2{" "}
-          <span className="text-red-400 hidden group-hover:flex">canapes</span>
+          <span className="text-red-400 hidden group-hover:flex">Adire boubou</span>
         </button>
         <button
           onClick={() => choice("main")}

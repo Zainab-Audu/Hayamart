@@ -21,11 +21,11 @@ const Navbar = () => {
             <HiOutlineMenu onClick={() => setMobileNav(!mobileNav)} size={30} />
           </div>
           <Link to="/">
-            <img
+            {/* <img
               src="https://cdn.hashnode.com/res/hashnode/image/upload/v1741937751683/8e9edcdb-0460-4b19-98c0-0b8b8a73d1e7.png"
               alt="logo"
               className="w-20 h-16 object-cover hidden lg:flex"
-            />
+            /> */}
           </Link>
 
           {/* Desktop Links with Active State */}
@@ -44,7 +44,7 @@ const Navbar = () => {
                 isActive("/order") ? "text-red-500" : ""
               }`}
             >
-              Order Here
+              Place your order!
             </Link>
             <Link
               to="/contact"
@@ -83,7 +83,7 @@ const Navbar = () => {
               to="/booking"
               className="bg-[#751614] px-6 py-2 border-none  font-bold hover:opacity-80 duration-300"
             >
-              Book Now
+              Buy Now!
             </Link>
           </div>
         </nav>

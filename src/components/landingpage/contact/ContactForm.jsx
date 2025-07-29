@@ -38,7 +38,7 @@ const ContactForm = () => {
                 Drop
               </p>
               <h1 className="text-[1.5rem] lg:text-[2rem] ">
-                Drop A Feedback/Comment
+                Drop your Feedback/Comment
               </h1>
             </div>
             <section>

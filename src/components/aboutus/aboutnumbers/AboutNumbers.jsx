@@ -8,10 +8,10 @@ const AboutNumbers = () => {
         <div className=" flex flex-col justify-start items-center lg:items-start gap-10  text-center">
           <div className="flex flex-col items-start font-bold">
             <h1 className="text-[1.5rem] lg:text-[2rem]">
-              We Came, Saw , and still Conquering
+              Where Heritage Meets Haute Couture
             </h1>
             <h1 className="text-[1.2rem] opacity-60  ">
-              We Came, Saw , and still Conquering
+              Where Heritage Meets Haute Couture.
             </h1>
           </div>
 
@@ -29,7 +29,7 @@ const AboutNumbers = () => {
                 {" "}
                 <CountUp start={0} end={400} duration={7} />+
               </b>
-              <h3 className="text-[1rem] font-bold mb-2">5 Star Reviews</h3>
+              <h3 className="text-[1rem] font-bold mb-2">5 Star Rating</h3>
             </div>
 
             <div className="p-4 bg-[#e35452]  py-8  rounded-md shadow-md">
@@ -37,7 +37,7 @@ const AboutNumbers = () => {
                 {" "}
                 <CountUp start={0} end={40} duration={7} />+
               </b>
-              <h3 className="text-[1rem] font-bold mb-2">Staffs</h3>
+              <h3 className="text-[1rem] font-bold mb-2">Staff</h3>
             </div>
 
             <div className="p-4 bg-[#e35452]  py-8  rounded-md shadow-md">

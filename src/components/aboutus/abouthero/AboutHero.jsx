@@ -12,14 +12,15 @@ const AboutHero = () => {
               </p>
               <h1 className="text-[1.5rem] lg:text-[2rem] flex flex-col ">
                 <span>About</span>
-                <span>I-Grills</span>
+                <span>Hayamart</span>
               </h1>
             </div>
             <p className="text-[#575656] text-[1rem]">
-              I-grills provides tasty meals for your personal and outdoor events
-              with just few clicks, I-grills provides tasty meals for your
-              personal and outdoor events with just few clicks, I-grills
-              provides tasty meals for your personal.
+              Hayamart is your one-stop destination for exquisite luxury wear,
+              offering a curated collection that blends tradition and elegance.
+              From stylish native outfits to timeless adire boubous and
+              sophisticated abayas, each piece is crafted to elevate your style,
+              exude confidence, and make every occasion truly unforgettable.
             </p>
           </div>
           <img
