@@ -3,7 +3,7 @@ import React from "react";
 const AboutHero = () => {
   return (
     <React.Fragment>
-      <div className="bg-[#FFFFFF] ">
+      <div className="bg-[#f2f0f0] ">
         <section className="flex flex-col-reverse justify-center items-center gap-20 py-16 lg:flex-row px-4 max-w-6xl mx-auto">
           <div className="flex flex-col gap-6 items-center text-center lg:text-start lg:items-start px-4">
             <div className="font-bold">

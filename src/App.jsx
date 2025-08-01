@@ -9,7 +9,7 @@ import Cart from "./components/orderpage/Cart";
 
 function App() {
   return (
-    <div className="text-[#333333] martel w-full">
+    <div className="text-[#3c3c3c] martel w-full">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUs />} />
